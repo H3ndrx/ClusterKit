@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "ClusterKit"
-  s.version          = "0.5.2"
+  s.version          = "0.5.3"
   s.summary          = "ClusterKit is a map clustering framework targeting MapKit, Google Maps, Mapbox and YandexMapKit."
 
   s.description      = <<-DESC
@@ -55,7 +55,7 @@ Pod::Spec.new do |s|
   s.subspec 'Mapbox' do |ss|
     ss.platform = :ios, '9.0'
     ss.dependency 'ClusterKit/Core'
-    ss.dependency 'Mapbox-iOS-SDK', '~> 6.2.0'
+    ss.dependency 'Mapbox-iOS-SDK', '~> 6.3.0'
     ss.source_files = 'Sources/Mapbox'
   end
 
